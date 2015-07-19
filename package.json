@@ -1,0 +1,11 @@
+{
+  "name": "payment-tracker",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-resource": "^1.4.3",
+    "lodash": "^3.10.0",
+    "require": "^2.4.20",
+    "requirejs": "^2.1.19"
+  }
+}
