@@ -7,7 +7,7 @@
                 $stateProvider
                         .state('login', {
                             url: "/login",
-                            templateUrl: "../src/app/components/login/login.html",
+                            templateUrl: "../app/components/login/login.html",
                             controller: 'LoginController as login',
                             resolve: {
                                 loginData: function (loginInfo) {
