@@ -11,12 +11,12 @@ Still debating whether to use bower or something to manage dependencies or to ju
     <body >
         <div data-ng-controller="LoginController as login">
             <p>{{login.name}}</p>
-            <input type="text" data-ng-model="login.name">
+            <input type="text" data-ng-model="login.name" data-ng-change="login.showAlert()">
         </div>
         <div>TODO write content</div>
         <script src="../node_modules/angular/angular.js"></script>
         <script src="../node_modules/angular-resource/angular-resource.js"></script>
-        <script src="../node_modules/lodash/chain/lodash.js"></script>
+        <script src="../node_modules/lodash/index.js"></script>
 
         <script src="../src/app/pay-tracker.js"></script>
         <script src="../src/app/components/login/LoginController.js"></script>
