@@ -1,10 +1,12 @@
 /* Authored by LaToya Richard */
 (function () {
 
-    function LoginController() {
-        this.name = 'LaToya';
+    function LoginController($window, loginData) {
+        //Return the resolved promise of factory method
+        this.name = loginData.name;
         this.showAlert = function () {
-            alert("Hello");
+            var message = "Hello Human";
+            alert($window._.snakeCase(message));
         };
     }
     angular.module('payTracker').controller('LoginController', LoginController);
