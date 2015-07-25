@@ -1,6 +1,6 @@
 /* Authored by LaToya Richard */
 (function (){
-     function SignUpController($window, loginData) {
+     function SignUpController($window) {
         //TODO:Replace the alert with $state.go for the sign up
         this.signUp = function () {
             alert('THis should route me');
