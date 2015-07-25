@@ -23,9 +23,9 @@
 //                            }
                         })
                         .state('login.signup', {
-                            url: "/login/signup",
-                            templateUrl: "../app/components/login/login/signup.html",
-                            controller: 'SignupController as signup'
+                            url: "/signup",
+                            templateUrl: "../app/components/login/sign-up/sign-up.html",
+                            controller: 'SignUpController as signup'
                         })
                          .state('home', {
                             url: "/home",
