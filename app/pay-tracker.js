@@ -2,6 +2,7 @@
 (function () {
     angular.module('payTracker', ['ngResource', 'ui.router', 'ui.bootstrap'])
             .config(function ($stateProvider, $urlRouterProvider) {
+                
                 $urlRouterProvider.otherwise("/login");
                 //Use ng resource to set up a default route, that calls a service, controller, and template
                 $stateProvider
